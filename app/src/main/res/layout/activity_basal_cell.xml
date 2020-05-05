@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".basalCell">
+
+    <ImageView
+
+        android:id="@+id/imageBasal"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/basalcell"
+        android:transitionName="abc" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:text="BASAL CELL"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content"
+        android:text="Basal cell carcinoma (BCC) is the most common form of skin cancer and the most frequently occurring form of all cancers. In the U.S. alone, more than 4 million cases are diagnosed each year. BCCs arise from abnormal, uncontrolled growth of basal cells."
+
+        >
+
+    </TextView>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Because BCCs grow slowly, most are curable and cause minimal damage when caught and treated early. Understanding BCC causes, risk factors and warning signs can help you detect them early, when they are easiest to treat and cure."/>
+</LinearLayout>

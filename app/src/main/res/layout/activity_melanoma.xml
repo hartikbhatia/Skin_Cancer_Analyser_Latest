@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".melanoma">
+
+    <ImageView
+
+        android:id="@+id/imageMelanoma"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/melanoma"
+        android:transitionName="example_transition" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:textStyle="bold"
+        android:text="MELANOMA"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_height="wrap_content"
+        android:text="Melanoma is a type of skin cancer that develops when melanocytes (the cells that give
+the skin its tan or brown color) start to grow out of control.
+Cancer starts when cells in the body begin to grow out of control. Cells in nearly any
+part of the body can become cancer, and can then spread to other areas of the body.Melanoma is much less common than some other types of skin cancers. But melanoma
+is more dangerous because it’s much more likely to spread to other parts of the body if
+not caught and treated early."/>
+
+
+</LinearLayout>

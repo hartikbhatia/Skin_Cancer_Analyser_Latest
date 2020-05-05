@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Merkel">
+
+    <ImageView
+
+        android:id="@+id/imageMerkel"
+        android:layout_width="match_parent"
+
+        android:layout_height="221dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/merklecell"
+        android:transitionName="cda" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:text="Merkel Cell"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content"
+        android:text="Merkel cell carcinoma is a rare type of skin cancer that usually appears as a flesh-colored or bluish-red nodule, often on your face, head or neck. Merkel cell carcinoma is also called neuroendocrine carcinoma of the skin."/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merkel cell carcinoma most often develops in older people. Long-term sun exposure or a weak immune system may increase your risk of developing Merkel cell carcinoma."/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merkel cell carcinoma tends to grow fast and to spread quickly to other parts of your body. Treatment options for Merkel cell carcinoma often depend on whether the cancer has spread beyond the skin."/>
+</LinearLayout>
